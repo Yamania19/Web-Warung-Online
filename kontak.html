@@ -1,28 +1,102 @@
-
 <!DOCTYPE html>
 <html>
 <head>
- <title>Kontak</title>
+  <title>Kontak</title>
+  <style>
+    body {
+      background-color: rgba(173, 216, 230, 0.5); /* biru muda agak transparan */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: navy;
+    }
+
+    h2 {
+      color: darkblue;
+    }
+
+    p {
+      color: #003366;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.7);
+      display: inline-block;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #003366;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: navy;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: darkblue;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 128, 0.3);
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: darkblue;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+  </style>
 </head>
 <body>
- <h1>Hubungi Kami</h1>
- <p>Alamat: Prajuruitan Atas Wonosobo Timur, Wonosobo</p>
- <p>Telepon: 0812-3456-7891</p>
- <p>Email: yamakan@gmail.com</p>
- <h2>Form Pemesanan / Kritik & Saran</h2>
- <form>
- Nama: <input type="text" name="nama"><br><br>
- Email: <input type="email" name="email"><br><br>
- Pesan: <textarea name="pesan"></textarea><br><br>
- <input type="submit" value="Kirim">
- </form>
- <nav>
- <a href="index.html">Beranda</a> |
- <a href="tentang.html">Tentang Kami</a> |
- <a href="produk.html">Produk</a> |
- <a href="kontak.html">Kontak</a>
- </nav>
-</body>
 
+  <h1>Hubungi Kami</h1>
+  <p>Alamat: Prajuritan Atas Wonosobo Timur, Wonosobo</p>
+  <p>Telepon: 0812-3456-7891</p>
+  <p>Email: yamakan@gmail.com</p>
+
+  <h2>Form Pemesanan / Kritik & Saran</h2>
+
+  <form>
+    Nama: <br>
+    <input type="text" name="nama"><br>
+    Email: <br>
+    <input type="email" name="email"><br>
+    Pesan: <br>
+    <textarea name="pesan"></textarea><br>
+    <input type="submit" value="Kirim">
+  </form>
+
+  <nav>
+    <a href="index.html">Beranda</a> |
+    <a href="tentang.html">Tentang Kami</a> |
+    <a href="produk.html">Produk</a> |
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+</body>
 </html>
+
 
